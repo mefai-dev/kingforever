@@ -1,0 +1,38 @@
+{
+  "name": "King Forever",
+  "description": "Blockchain territory conquest game on BNB Smart Chain",
+  "network": {
+    "primary": "bsc",
+    "chainId": 56,
+    "chainName": "BNB Smart Chain Mainnet",
+    "rpcUrl": "https://bsc-dataseed.binance.org/",
+    "blockExplorer": "https://bscscan.com",
+    "nativeCurrency": {
+      "name": "BNB",
+      "symbol": "BNB",
+      "decimals": 18
+    }
+  },
+  "contracts": {
+    "MEFAI": {
+      "address": "0x45E57907058c707a068100De358BA4535b18E2F3",
+      "type": "BEP-20",
+      "decimals": 18,
+      "verified": true,
+      "bscscanUrl": "https://bscscan.com/token/0x45E57907058c707a068100De358BA4535b18E2F3"
+    }
+  },
+  "testnet": {
+    "chainId": 97,
+    "chainName": "BNB Smart Chain Testnet",
+    "rpcUrl": "https://data-seed-prebsc-1-s1.binance.org:8545/",
+    "blockExplorer": "https://testnet.bscscan.com"
+  },
+  "dapp": {
+    "name": "King Forever",
+    "url": "https://kingforever.io",
+    "documentation": "https://kingforever.io/winnerguide",
+    "category": "Games",
+    "subcategory": "Strategy"
+  }
+}
