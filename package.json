@@ -1,0 +1,39 @@
+{
+  "name": "king-forever",
+  "version": "1.0.0",
+  "description": "Blockchain territory conquest game on BNB Smart Chain",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:bsc": "hardhat run scripts/deploy.js --network bsc",
+    "deploy:bsc-testnet": "hardhat run scripts/deploy.js --network bscTestnet",
+    "verify:bsc": "hardhat verify --network bsc",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [
+    "bnb-chain",
+    "bsc",
+    "blockchain",
+    "game",
+    "defi",
+    "web3",
+    "territory",
+    "mefai"
+  ],
+  "author": "King Forever Team",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "ethers": "^6.9.0",
+    "@solana/web3.js": "^1.87.0",
+    "react": "^18.2.0",
+    "vite": "^5.0.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0",
+    "dotenv": "^16.3.0"
+  }
+}
